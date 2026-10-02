@@ -667,38 +667,11 @@ img {
     box-shadow: 0 25px 70px rgba(0,0,0,.25);
 }
 
-.video-placeholder {
+.video-wrapper iframe {
+    display: block;
+    width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    background:
-        radial-gradient(circle at center, rgba(8,120,209,.18), transparent 35%),
-        #061a32;
-}
-
-.video-placeholder .play {
-    width: 70px;
-    height: 70px;
-    display: grid;
-    place-items: center;
-    border-radius: 50%;
-    background: var(--blue);
-    margin-bottom: 20px;
-    font-size: 25px;
-    padding-left: 4px;
-}
-
-.video-placeholder h3 {
-    font-size: 22px;
-}
-
-.video-placeholder p {
-    color: #aebbd0;
-    margin-top: 5px;
+    border: 0;
 }
 
 .pricing-card {
